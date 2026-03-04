@@ -26,6 +26,11 @@
     /* Smoother, more modern easing */
 }
 
+::selection {
+    background-color: var(--accent-gold);
+    color: #fff;
+}
+
 /* Reset & Base Styles */
 * {
     margin: 0;
