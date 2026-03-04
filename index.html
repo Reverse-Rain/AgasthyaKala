@@ -20,8 +20,8 @@
 
 <body>
     <!-- Floral Artistic Decorations -->
-    <img src="images/floral_left.png" class="floral-side floral-left" alt="Decoration" id="floralLeft">
-    <img src="images/floral_right.png" class="floral-side floral-right" alt="Decoration" id="floralRight">
+    <!-- <img src="images/floral_left.png" class="floral-side floral-left" alt="Decoration" id="floralLeft">
+    <img src="images/floral_right.png" class="floral-side floral-right" alt="Decoration" id="floralRight"> -->
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
@@ -154,110 +154,43 @@
 
     <!-- Artworks / Gallery Section -->
     <section class="artworks section" id="artworks">
-        <div class="container">
-            <div class="section-header reveal zoom">
-                <h2 class="section-title">Our Artworks</h2>
-                <p>The displayed collections are currently sold out. However, we can create a custom piece based on your
-                    preferences or recreate the same artwork for you.</p>
+        <div class="staggered-gallery-container reveal zoom">
+            <div class="staggered-gallery">
+                <!-- Column 1 -->
+                <div class="sg-col col-1">
+                    <div class="sg-img-wrapper"><img src="images/img_2.jpg" alt="Art"></div>
+                    <div class="sg-img-wrapper"><img src="images/img_3.jpg" alt="Art"></div>
+                </div>
+                <!-- Column 2 -->
+                <div class="sg-col col-2">
+                    <div class="sg-img-wrapper"><img src="images/img_4.jpg" alt="Art"></div>
+                    <div class="sg-img-wrapper"><img src="images/gallery1.png" alt="Art"></div>
+                </div>
+                <!-- Column 3 -->
+                <div class="sg-col col-3 center-col">
+                    <div class="sg-img-wrapper large"><img src="images/img_5.jpg" alt="Art"></div>
+                </div>
+                <!-- Column 4 -->
+                <div class="sg-col col-4">
+                    <div class="sg-img-wrapper"><img src="images/img_6.jpg" alt="Art"></div>
+                    <div class="sg-img-wrapper"><img src="images/img_7.jpg" alt="Art"></div>
+                </div>
+                <!-- Column 5 -->
+                <div class="sg-col col-5">
+                    <div class="sg-img-wrapper"><img src="images/img_8.jpg" alt="Art"></div>
+                    <div class="sg-img-wrapper"><img src="images/gallery2.png" alt="Art"></div>
+                </div>
             </div>
 
-            <div class="gallery-container">
-                <!-- Using newly generated high-quality images -->
-                <div class="gallery-item reveal zoom delay-1">
-                    <img src="images/gallery1.png" alt="Art Piece 1" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <div class="gallery-expand-icon">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                            </svg>
-                        </div>
-                        <div class="gallery-info">
-                            <h3>Sold Artwork 1</h3>
-                            <p>Custom Piece</p>
-                        </div>
-                    </div>
+            <div class="sg-content reveal slide-up delay-2">
+                <span class="sg-tag">Contact Us</span>
+                <h2 class="sg-title">Trusted by art lovers<br>from everywhere</h2>
+                <p class="sg-description">The displayed collections are currently sold out. However, we can create a
+                    custom piece based on your preferences or recreate the same artwork for you.</p>
+                <div class="sg-actions">
+                    <a href="https://wa.me/919947710054" class="btn btn-primary" target="_blank">Chat on WhatsApp</a>
+                    <a href="https://instagram.com/_agasthya_kala_" class="btn btn-dark" target="_blank">Instagram</a>
                 </div>
-                <div class="gallery-item reveal zoom delay-2">
-                    <img src="images/gallery2.png" alt="Art Piece 2" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <div class="gallery-expand-icon">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                            </svg>
-                        </div>
-                        <div class="gallery-info">
-                            <h3>Sold Artwork 2</h3>
-                            <p>Custom Piece</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item reveal zoom delay-3">
-                    <img src="images/gallery1.png" alt="Art Piece 3" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <div class="gallery-expand-icon">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                            </svg>
-                        </div>
-                        <div class="gallery-info">
-                            <h3>Sold Artwork 3</h3>
-                            <p>Custom Piece</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item reveal zoom delay-1">
-                    <img src="images/gallery2.png" alt="Art Piece 4" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <div class="gallery-expand-icon">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                            </svg>
-                        </div>
-                        <div class="gallery-info">
-                            <h3>Sold Artwork 4</h3>
-                            <p>Custom Piece</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item reveal zoom delay-2">
-                    <img src="images/gallery1.png" alt="Art Piece 5" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <div class="gallery-expand-icon">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                            </svg>
-                        </div>
-                        <div class="gallery-info">
-                            <h3>Sold Artwork 5</h3>
-                            <p>Custom Piece</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-item reveal zoom delay-3">
-                    <img src="images/gallery2.png" alt="Art Piece 6" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <div class="gallery-expand-icon">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                            </svg>
-                        </div>
-                        <div class="gallery-info">
-                            <h3>Sold Artwork 6</h3>
-                            <p>Custom Piece</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cta-banner reveal slide-up">
-                <p>Because our pieces often sell out as soon as they're completed, photos may not always be available.
-                </p>
-                <a href="#contact" class="btn btn-primary">Request Commission</a>
             </div>
         </div>
     </section>
@@ -285,9 +218,17 @@
                 <address>
                     Agasthya Kala Edat<br>
                     Near Malara Oil Mill,<br>
-                    Payyannur, Kerala 670327
+                    Payyannur, Kerala 670327 , India
                 </address>
                 <p class="call-today">Call us today!</p>
+            </div>
+
+            <div class="footer-qr reveal zoom delay-3">
+                <h3>Instagram</h3>
+                <a href="https://instagram.com/_agasthya_kala_" target="_blank">
+                    <img src="images/img_1.jpg" alt="Instagram QR Code" class="qr-code">
+                </a>
+                <p>Scan to view our artworks!</p>
             </div>
         </div>
         <div class="footer-bottom">
